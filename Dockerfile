@@ -6,7 +6,7 @@ WORKDIR /TamilanBotsz
 
 COPY requirements.txt ./
 
-RUN python -m pip install pymongo
+RUN pip install -r requirements.txt
 
 copy . .
 
