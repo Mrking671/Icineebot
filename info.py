@@ -31,12 +31,12 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Mrblackgod:nehalsingh969797@cluster0.gejltut.mongodb.net/?retryWrites=true&w=majority")etryWr")u")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Myezpzproblem:nehalsingh969797@cluster0.vtwb52o.mongodb.net/?retryWrites=true&w=majority")etryWr")u")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Mrblackgod")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL','-1001818522365' ))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL','-1001748572062' ))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001955515603')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
