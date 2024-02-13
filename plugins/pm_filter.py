@@ -735,7 +735,7 @@ async def auto_filter(client, msg, spoll=False):
             if not files:
                 await client.send_message(file_req_channel,f"-🦋 #REQUESTED_FILE 🦋-\n\n📝Fɪʟᴇ Nᴀᴍᴇ :{search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ: {message.from_user.first_name}\n\n Usᴇʀ Iᴅ :{message.from_user.id}\n\n🗃Cᴏᴅᴇᴅᴇᴅ Bʏ  @Lordsakunaa",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Fɪʟᴇ Uᴩʟᴏᴀᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ 🔺", callback_data="close_data")]]))
-                l = await message.reply_text(text=f"△ Hᴇʏ Fʀɪᴇɴᴅ {message.from_user.first_name} 😎,\n\n❗COULD NOT FOUND ANYTHING❗\n\n👇PLEASE SEARCH BELOW👇",
+                l = await message.reply_text(text=f"△ Hᴇʏ Fʀɪᴇɴᴅ {message.from_user.first_name} 😎,\n\n👇PLEASE SEARCH HERE👇",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✅ SEARCH HERE ✅", url="https://t.me/+nKz9rQJ893BlMGRl")],[InlineKeyboardButton("💕 BOLLYWOOD 💕", url="https://t.me/+ylvI8ZZcge80MWRl"), InlineKeyboardButton("😍 SOUTH INDIAN😍", url="https://t.me/+nNxrEiZPumNlMjBl"), InlineKeyboardButton("💥 HOLLYWOOD 💥", url="https://t.me/+nKz9rQJ893BlMGRl")],[InlineKeyboardButton("🌟 𝐌𝐎𝐑𝐄 𝐁𝐎𝐓𝐒 🌟", url="https://t.me/ezpzsupport/17")]]))
                 await asyncio.sleep(12)
                 await l.delete()
